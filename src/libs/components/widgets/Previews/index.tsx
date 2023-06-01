@@ -4,7 +4,7 @@ import { FaCalendarPlus, FaPlus } from "react-icons/fa";
 export const Previews = () => {
     return (
         <Grid w='full' templateColumns='repeat(4, 1fr)' gap='4'>
-            <GridItem bg='winter.100' w='full' p='4' rounded='2xl'>
+            <GridItem bg='winter.600' w='full' p='4' rounded='2xl'>
                 <Flex direction='column' gap='4' w='full'>
                     <Flex justify='space-between'>
                         <Flex direction='column'>
@@ -20,7 +20,7 @@ export const Previews = () => {
                     </Flex>
                 </Flex>
             </GridItem>
-            <GridItem bg='winter.100' w='full' p='4' rounded='2xl'>
+            <GridItem bg='winter.600' w='full' p='4' rounded='2xl'>
                 <Flex direction='column' gap='4' w='full'>
                     <Flex justify='space-between'>
                         <Flex direction='column'>
@@ -36,7 +36,7 @@ export const Previews = () => {
                     </Flex>
                 </Flex>
             </GridItem>
-            <GridItem bg='winter.100' w='full' p='4' rounded='2xl'>
+            <GridItem bg='winter.600' w='full' p='4' rounded='2xl'>
                 <Flex direction='column' gap='4' w='full'>
                     <Flex justify='space-between'>
                         <Flex direction='column'>
@@ -52,7 +52,7 @@ export const Previews = () => {
                     </Flex>
                 </Flex>
             </GridItem>
-            <GridItem w='full' p='4' border='2px' borderStyle='dotted' rounded='2xl'>
+            <GridItem w='full' p='4' border='2px' borderStyle='dotted' rounded='2xl' _hover={{cursor: 'pointer'}}>
                 <Flex justify='center' align='center' h='full'>
                     <Icon as={FaPlus} />
                 </Flex>

@@ -2,7 +2,7 @@ import { Flex, Link, Text } from "@chakra-ui/react";
 
 export const Footer = () => {
     return (
-        <Flex justify='space-around' bg='winter.100' rounded='2xl' px='8' py='4'>
+        <Flex justify='space-around' bg='winter.600' rounded='2xl' px='8' py='4'>
             <Flex>
                 <Text fontSize='14px'>© 2023 Artic - All Right Reserved.</Text>
             </Flex>
@@ -10,6 +10,7 @@ export const Footer = () => {
                 <Link fontSize='14px'>License</Link>
                 <Link fontSize='14px'>About Us</Link>
                 <Link fontSize='14px'>Contacts</Link>
+                <Link fontSize='14px'>Links</Link>
             </Flex>
         </Flex>
     );
